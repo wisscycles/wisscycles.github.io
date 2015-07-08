@@ -1,0 +1,24 @@
+{
+  "name": "Wissahickon_Cyclery",
+  "version": "1.0.0",
+  "description": "Wissahickon Cyclery",
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "gulp-clean": "^0.3.1",
+    "gulp-connect": "^2.2.0",
+    "gulp-stylus": "^2.0.x",
+    "gulp-watch": "^3.0.0",
+    "jeet": "^6.1.2",
+    "nib": "^1.0.4",
+    "rupture": "^0.4.0",
+    "run-sequence": "^1.0.2",
+    "gulp-swig": "latest",
+    "gulp-uglify": "1.2.0",
+    "gulp-gh-pages": "0.5.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:wisscycles/wisscycles.github.io.git"
+  },
+  "author": "Ryan Dudek"
+}
