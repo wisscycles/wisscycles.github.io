@@ -9,7 +9,8 @@
 .mobile-only
 	display: block !important
 
-.desktop-only
+.desktop-only,
+.wide-only
 	display: none !important
 
 .container
@@ -42,7 +43,7 @@
 		display: none !important
 
 	.desktop-only
-		display: block !important
+		display: initial !important
 
 	.page-content
 		padding-right: 18.75em
@@ -55,6 +56,9 @@
 		width: 12.5em
 
 +above(48em)
+	.wide-only
+		display: initial !important
+
 	.page-content
 		padding-right: 26.25em
 
