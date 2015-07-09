@@ -8,7 +8,6 @@ var gulp = require('gulp'),
     clean = require('gulp-clean'),
     runSequence = require('run-sequence'),
     swig = require('gulp-swig'),
-    uglify = require('gulp-uglify'),
     ghPages = require('gulp-gh-pages');
 
 gulp.task('stylus', function () {
@@ -28,7 +27,6 @@ gulp.task('swig', function() {
 
 gulp.task('compressjs', function() {
   return gulp.src('./js/*.js')
-    .pipe(uglify())
     .pipe(gulp.dest('./dev/js'));
 });
 
