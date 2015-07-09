@@ -22,6 +22,9 @@ var App = window.App || {
 
 	getBeacon: function(beacon) {
 		switch(beacon) {
+		case "0px":
+			this.setHeights();
+			break;
 		case "768px":
 			this.setHeights();
 			break;
