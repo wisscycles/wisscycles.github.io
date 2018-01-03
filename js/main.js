@@ -59,18 +59,18 @@ $().ready(function () {
 		currentTime = currentHours + ':' + currentMinutes,
 		storeHours = [
 			'Closed',
+			'Closed',
 			'10am - 6pm',
 			'10am - 6pm',
-			'10am - 8pm',
 			'10am - 6pm',
 			'10am - 6pm',
 			'10am - 5pm'
 		],
 		closingTime = [
 			'00:00',
+			'00:00',
 			'18:00',
 			'18:00',
-			'20:00',
 			'18:00',
 			'18:00',
 			'17:00'
